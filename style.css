@@ -33,7 +33,7 @@
   bottom: 0!important;
   padding: 15px!important;
   padding-left: 50px!important;
-  border: var(--button-border);
+  border: thick double #ffe3a3 !important ;
   color: white !important;
   text-align: center;
 }
