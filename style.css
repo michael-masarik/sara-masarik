@@ -12,6 +12,7 @@
   padding-bottom: 3px;
   padding-left: 5px;
   padding-right: 24px;
+  outline: solid 2px var(--background-light-color)!important;
 
     & a {
       color: var(--background-light-color)!important;
@@ -34,7 +35,7 @@
   bottom: 0!important;
   padding: 15px!important;
   padding-left: 50px!important;
-  border: thick double #ffe3a3 !important;
+  border: none;
   color: white !important;
   text-align: center;
 }
