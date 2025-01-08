@@ -1,5 +1,10 @@
 /* I am using the Kowalski Press Botanical theme css here. It is a great theme, but i wanted to make a few changes for my site*/
 @import url(https://kowalskipress.github.io/templates/botanical/botanical.css);
+:root{
+  --background-light-color: #ffe3a3 !important; /* this is the ligt color (yellow)*/
+  --background-dark-color: #032d11 !important; /* this is the dark color (green)*/
+  --button-border: thick double #ffe3a3 !important;
+}
 /*This code is from Super.so. I have edited it somewhat to fit my needs. Here is the original: https://help.super.so/en/articles/6416536-how-to-turn-a-callout-into-a-cta-button */
 .notion-callout{
   padding-top: 5px;
@@ -8,7 +13,7 @@
   padding-right: 24px;
 
     & a {
-      color: var(--yellow-text-color)!important;
+      color: var(--background-light-color)!important;
   }
     & a:hover {
       color: white !important;
@@ -18,7 +23,7 @@
 
 .notion-callout .notion-callout__content .notion-semantic-string span .notion-link {
   border-radius: 0px;!important;
-  background-color: #DA0606;
+  background-color: var(--background-dark-color);
   position: absolute!important;
   height: 100%!important;
   width: 100%!important;
@@ -28,7 +33,7 @@
   bottom: 0!important;
   padding: 15px!important;
   padding-left: 50px!important;
-  border: none!important;
+  border: var(--button-border);
   color: white !important;
   text-align: center;
 }
@@ -56,7 +61,7 @@
 }
 
 .notion-callout.bg-blue-light {
-    background: var(--notion-red-base) !important; /* CHANGE THE BUTTON COLOR HERE */
+    background: var(--background-dark-color) !important; /* CHANGE THE BUTTON COLOR HERE */
     box-shadow: none !important;
     color: #fff !important;
 }
