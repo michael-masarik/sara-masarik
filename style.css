@@ -5,6 +5,7 @@
   --background-dark-color: #032d11 !important; /* this is the dark color (green)*/
   --button-border: thick double #ffe3a3 !important;
   --link-main-color: #539DCA !important;
+  --link-hover-color: white !important;
 }
 /*This code is from Super.so. I have edited it somewhat to fit my needs. Here is the original: https://help.super.so/en/articles/6416536-how-to-turn-a-callout-into-a-cta-button */
 .notion-callout{
@@ -18,7 +19,7 @@
       color: var(--background-light-color)!important;
   }
     & a:hover {
-      color: white !important;
+      color:var(--link-hover-color);
   }
 }
 
@@ -101,9 +102,9 @@ p a{
   text-decoration-color: var(--link-main-color) !important;
 }
 p a:hover{
-  color: white !important;
+  color: var(--link-hover-color);
   font-weight: bold;
-  text-decoration-color: white !important;
+  text-decoration-color: var(--link-hover-color);
 }
 .notion-toggle.bg-brown{
   display: none !important;
