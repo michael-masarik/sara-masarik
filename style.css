@@ -104,3 +104,6 @@ p a:hover{
   font-weight: bold;
   text-decoration-color: white !important;
 }
+.notion-toggle.bg-brown{
+  display: none !important;
+}
