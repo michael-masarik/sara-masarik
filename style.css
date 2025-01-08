@@ -93,3 +93,14 @@
 .notion-callout.bg-blue-light .notion-semantic-string .link:hover {
     border: none !important;
 }
+/* This sets the color for all inline text links */
+p a{
+  color: #539DCA !important;
+  font-weight: bold;
+  text-decoration-color: #539DCA !important;
+}
+p a:hover{
+  color: white !important;
+  font-weight: bold;
+  text-decoration-color: white !important;
+}
