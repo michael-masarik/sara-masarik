@@ -22,4 +22,26 @@ p a:hover{
 .notion-toggle.bg-brown{
   display: none !important;
 }
+/* Callout Buttons */
+
+.notion-callout.bg-blue-light .notion-link{
+  color: var(--background-dark-color) !important;
+  text-decoration: none;
+  font-weight: 1000 !important;
+  text-align: center !important;
+  display: block;
+  
+}
+.notion-callout.bg-blue-light{
+  padding:0px 0px!important;
+  font-size: 150%;
+  border-radius: 50px;
+  background-color: var(--background-light-color);
+  scale: 0.75;
+  
+}
+.notion-callout.bg-blue-light:hover{
+  scale:0.8;
+}
+
 
