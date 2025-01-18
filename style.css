@@ -7,21 +7,7 @@
   --link-main-color: #539DCA !important;
   --link-hover-color: white !important;
 }
-/*This code is from Super.so. I have edited it somewhat to fit my needs. Here is the original: https://help.super.so/en/articles/6416536-how-to-turn-a-callout-into-a-cta-button */
-.notion-callout{
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-left: 5px;
-  padding-right: 24px;
-  border: solid 2px var(--background-light-color)!important;
 
-    & a {
-      color: var(--background-light-color)!important;
-  }
-    & a:hover {
-      color:var(--link-hover-color);
-  }
-}
 /* This sets the color for all inline text links */
 p a{
   color: var(--link-main-color) !important;
