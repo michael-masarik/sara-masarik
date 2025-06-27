@@ -40,9 +40,10 @@ p a:hover{
   
 }
 .notion-callout.bg-blue-light{
-  padding:10px, 20px!important;
-  border-radius: 50px;
+  padding: 10px;
+  border-radius: 30px!important;
   background-color: var(--background-light-color);
+  font-size: 25px;
   display: block;
 }
 
