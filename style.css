@@ -39,9 +39,10 @@ p a:hover{
   
 }
 .notion-callout.bg-blue-light{
-  padding:10px 20px!important;
+  padding:10px, 20px!important;
   border-radius: 50%;
   background-color: var(--background-light-color);
+  display: block;
 }
 
 .notion-callout.bg-blue-light:hover{
