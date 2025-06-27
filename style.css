@@ -28,6 +28,7 @@ p a:hover{
   font-weight: 1000 !important;
   text-align: center !important;
   display: block;
+  opacity: 1 !important;
   
 }
 .notion-callout.bg-blue-light p{
@@ -40,7 +41,7 @@ p a:hover{
 }
 .notion-callout.bg-blue-light{
   padding:10px, 20px!important;
-  border-radius: 50%;
+  border-radius: 50px;
   background-color: var(--background-light-color);
   display: block;
 }
