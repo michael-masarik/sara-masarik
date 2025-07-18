@@ -51,7 +51,7 @@ p a:hover{
   scale:1.1;
 }
 /*Notion Forms*/
-.notion-form__wrapper .notion-header__content{
+.notion-form__wrapper{
   display: none;
 }
 .notion-form__wrapper{
