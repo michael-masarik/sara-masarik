@@ -20,5 +20,18 @@
       "type": "image/png",
       "purpose": "any"
     }
-  ]
+  ],
+    "shortcuts": [
+  {
+    "name": "Schedule",
+    "url": "/ocia-prayer-warriors",
+    "description": "Prayer Schedule"
+  },
+  {
+    "name": "Prayers",
+    "url": "/ocia-prayer-warriors/recommended-prayerst",
+    "description": "Recomended Prayers"
+  }
+]
+
 }
