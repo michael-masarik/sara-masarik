@@ -1,21 +1,21 @@
 {
     "name": "OCIA Prayer Warriors",
     "short_name": "OCIA",
-    "start_url": "/ocia-prayer-warriors",
+    "start_url": "https://saramasarik.com/ocia-prayer-warriors",
     "display": "standalone",
     "theme_color": "#032d11",
     "orientation": "portrait",
-    "scope": "/ocia-prayer-warriors",
+    "scope": "https://saramasarik.com/ocia-prayer-warriors",
     "description":"OCIA Prayer Warriors prayers and schedule",
     "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "https://code.saramasarik.com/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "https://code.saramasarik.com/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
@@ -30,7 +30,7 @@
   {
     "name": "Prayers",
     "url": "/ocia-prayer-warriors/recommended-prayers",
-    "description": "Recomended Prayers"
+    "description": "Recommended Prayers"
   }
 ]
 
