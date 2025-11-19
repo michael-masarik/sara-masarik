@@ -1,5 +1,5 @@
 {
-    "name": "OCIA Prayer Wariors",
+    "name": "OCIA Prayer Warriors",
     "short_name": "OCIA",
     "start_url": "/ocia-prayer-warriors",
     "display": "standalone",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Prayers",
-    "url": "/ocia-prayer-warriors/recommended-prayerst",
+    "url": "/ocia-prayer-warriors/recommended-prayers",
     "description": "Recomended Prayers"
   }
 ]
