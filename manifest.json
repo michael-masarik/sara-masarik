@@ -1,0 +1,24 @@
+{
+    "name": "OCIA Prayer Wariors",
+    "short_name": "OCIA",
+    "start_url": "/ocia-prayer-warriors",
+    "display": "standalone",
+    "theme_color": "#032d11",
+    "orientation": "portrait",
+    "scope": "/ocia-prayer-warriors",
+    "description":"OCIA Prayer Warriors prayers and schedule",
+    "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
